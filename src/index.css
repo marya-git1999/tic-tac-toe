@@ -379,10 +379,7 @@ ol {
   #game-board button {
     width: 4.8rem;
     height: 4.8rem;
-<<<<<<< HEAD
     font-size: 2.5rem;
-=======
->>>>>>> b3c1486d3de206cba58a9057d9f26855992979d0
   }
   #game-board ol {
     justify-content: space-between;
