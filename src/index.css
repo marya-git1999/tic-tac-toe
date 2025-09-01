@@ -23,7 +23,7 @@ body {
       rgba(241, 210, 70, 0.98),
       rgba(250, 176, 103, 0.87)
     ),
-    url("bg-pattern-dark.png");
+    url("/bg-pattern-dark.png");
   background-repeat: repeat;
   background-size: 100% 100%, 30% 30%, 100% 100%;
   min-height: max-content;
@@ -341,48 +341,63 @@ ol {
     transform: scale(0);
     opacity: 0;
   }
+
   80% {
     transform: scale(1.1);
     opacity: 1;
   }
+
   100% {
     transform: scale(1);
   }
 }
+
 @media only screen and (max-width: 600px) {
   body {
     min-height: max-content;
   }
+
   #game-container {
     padding: 1.8rem 2rem;
     max-width: 22.5rem;
   }
+
   #players {
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
   }
+
   #players li {
     width: 100%;
     justify-content: space-between;
   }
+
   .player-name {
     font-size: 0.875rem;
     width: 6rem;
   }
+
   .player-symbol {
     font-size: 0.875rem;
   }
+
   #game-board {
     margin-bottom: 1.5rem;
   }
+
   #game-board button {
     width: 4.8rem;
     height: 4.8rem;
     font-size: 2.5rem;
   }
+
   #game-board ol {
     justify-content: space-between;
     gap: 0rem;
+  }
+
+  #game-over h2 {
+    font-size: 3rem;
   }
 }
